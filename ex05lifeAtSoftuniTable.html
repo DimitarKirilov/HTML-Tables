@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Life at Softuni</title>
+    <style>
+        table, th, td 
+        {
+            border: 1px solid black;
+        }
+        th 
+        {
+            padding: 20px;
+        }
+        .big 
+        {
+            font-size:48px;
+        }
+        #nopadding 
+        {
+            padding: 5px;
+        }
+        table 
+        {
+            margin: auto;
+        }
+        td 
+        {
+            padding: 25px;
+            font-size: 24px;
+        }
+        .right
+        {
+            text-align: right;
+        }
+        .center
+        {
+            text-align: center;
+        }
+        .nestedTable td
+        {
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" class="big">SoftUni LIFE</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="right"><b>Beer ></b></td>
+                <td>WC</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td colspan="2">Google</td>
+                <td colspan="2" class="right">GitHub</td>
+            </tr>
+            <tr>
+                <td class="center">FB</td>
+                <td>GMail</td>
+                <td class="center">YouTube</td>
+                <td>2048</td>
+            </tr>
+            <tr>
+                <td class="right">Food</td>
+                <td colspan="2">Game</td>
+                <td id="nopadding">
+                    <table class="nestedTable">
+                        <tr>
+                            <td class="center"><b>Social Life</b></td>
+                        </tr>
+                        <tr>
+                            <td class="center"><b>Sleep</b></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
